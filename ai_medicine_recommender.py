@@ -101,7 +101,7 @@ disease, med = predict_disease(symptoms_input)
 print("\nPredicted Disease:", disease)
 print("Recommended Medicine / Advice:", med)
 
-!pip install gradio
+
 
 import gradio as gr
 
