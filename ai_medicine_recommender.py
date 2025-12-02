@@ -7,8 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/1txI_mp4c7kGRjGMFrx5t0GHbBfgzb_kj
 """
 
-# ✅ Step 1: Install libraries
-!pip install pandas scikit-learn
+
+
 
 # ✅ Step 2: Import libraries
 import pandas as pd
