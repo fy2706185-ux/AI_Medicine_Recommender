@@ -121,7 +121,7 @@ iface = gr.Interface(
 
 iface.launch()  # Colab me ye ek web link generate karega
 
-!pip install streamlit
+
 
 import streamlit as st
 
@@ -134,7 +134,7 @@ if st.button("Predict"):
     st.success(f"Disease: {disease}")
     st.info(f"Recommended Medicine / Advice: {med}")
 
-!pip install streamlit pyngrok
+
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile app.py
@@ -164,7 +164,7 @@ print(public_url)
 # Run Streamlit app
 !streamlit run app.py --server.port 8501 --server.headless true
 
-!pip install gradio
+
 
 import gradio as gr
 
@@ -178,7 +178,7 @@ demo = gr.Interface(fn=predict_med,
                     title="AI Medicine Recommender")
 demo.launch()
 
-!pip install gradio
+
 
 import gradio as gr
 
@@ -257,7 +257,7 @@ disease_keywords = {
     "Enzite": ["enzite", "anxiety", "stress", "irritability", "sleeplessness"]
 }
 
-!pip install gradio
+
 
 import gradio as gr
 
